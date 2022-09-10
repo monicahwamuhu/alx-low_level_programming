@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- * main - program to alphabet letters except q and e followed by new line
+ *  main - program to alphabet letters except q and e followed by new line
  *
- * Return= return o
+ *  Return= return o
  */
 int main(void)
 
