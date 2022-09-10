@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <cstyle.h>
+
 /**
  *  main - prints combination of three digits
  *
