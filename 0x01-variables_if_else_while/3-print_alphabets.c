@@ -10,21 +10,21 @@ int main(void)
 {
 	int letter;
 
-	for(letter = 'a' ; letter <= 'z' ; letter++)
+	for (letter = 'a' ; letter <= 'z' ; letter++)
 	{
 		letter = tolower(letter);
 		putchar(letter);
 		if (letter == 'z')
 		{
 			letter = 'A';
-			for(; letter <= 'z' ; letter++)
+			for ( ; letter <= 'z' ; letter++)
 			{
 				putchar(letter);
 			}
 			break;
 		}
 	}
-	putchar ('\n');
+	putchar('\n');
 	return (0);
 }
 
