@@ -2,37 +2,41 @@
 
 /**
  *
- * *print_alphabet_x10 - prints alphabet letters
+ *  * print_alphabet_x10 - Prints the alphabet 10 times
  *
- * * ten times
+ *   *
  *
- * *desc: The function uses loop to operate
+ *    * Return: void
  *
- * *Return: no return
- *
- * */
+ *     */
 
 void print_alphabet_x10(void)
 
 {
 
-	int counter = 0;
-
-	int letter;
-
-	while (counter++ <= 9)
-
-	{
-
-		for (letter = 'a'; letter <= 'z'; letter++)
-
-			_putchar(letter);
+		int i;
 
 
 
-		_putchar(10);
+			for (i = 0; i < 10; i++)
 
-	}
+					{
+
+								char c;
+
+
+
+										for (c = 'a'; c <= 'z'; c++)
+
+													{
+
+																	_putchar(c);
+
+																			}
+
+												_putchar('\n');
+
+													}
 
 }
 
