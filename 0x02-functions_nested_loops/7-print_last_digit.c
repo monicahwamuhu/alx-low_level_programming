@@ -49,12 +49,3 @@ int print_last_digit(int a)
 	return (a);
 
 }
-
-Footer
-
-© 2022 GitHub, Inc.
-
-Footer navigation
-
-Terms
-
